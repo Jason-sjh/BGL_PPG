@@ -1,0 +1,1 @@
+{"Model": ["SVR", "GradientBoostingRegressor", "RandomForestRegressor", "LinearRegression", "XGBRegressor"], "mARD": [10.9888, 8.4687, 7.3716, 11.3574, 7.7007], "MAE": [13.0759, 10.3505, 9.0025, 13.6969, 9.4761], "RMSE": [16.1564, 12.9111, 11.7647, 17.5875, 12.4167]}

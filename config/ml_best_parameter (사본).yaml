@@ -1,0 +1,28 @@
+##     ['SE_mean', 'SE_var', 'SE_iqr', 'SE_skew', 'KTE_mean', 'KTE_var', 'KTE_iqr', 'KTE_skew', 'LogE_mean', 'LogE_var', 'LogE_iqr','LogE_skew', 'BGL']
+GBM:
+  learning_rate: 0.025
+  max_depth: 9
+  n_estimators: 200
+  subsample: 0.8
+LR:
+  copy_X: true
+  fit_intercept: true
+  n_jobs: null
+  normalize: true
+RF:
+  max_depth: 30
+  min_samples_leaf: 1
+  min_samples_split: 2
+  n_estimators: 200
+SVM:
+  C: 10
+  epsilon: 0.5
+  kernel: rbf
+XGB:
+  colsample_bytree: 1.0
+  learning_rate: 0.01
+  max_depth: 25
+  n_estimators: 500
+  reg_alpha: 0.001
+  reg_lambda: 0.001
+  subsample: 0.7
